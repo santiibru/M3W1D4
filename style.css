@@ -1,0 +1,88 @@
+html{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar{
+    background-color: #fef7e2;
+    width: 800px;
+    height: 80px;
+    padding: 20px;
+    border-radius: 30vh;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.button-nav{
+    background-color: #ffdf7e;
+    padding: 10px;
+    border-radius: 20vh;
+    flex-basis: 20px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    font-family:Arial, Helvetica, sans-serif;
+    cursor: pointer;
+  
+    
+}
+
+
+div.button-nav img{
+    width: 50px;
+}
+
+div.button-nav:nth-of-type(3){
+    align-items: center;
+    justify-content: space-around;
+    flex-grow: 2;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#container{
+    background-color:#fef7e2;
+    width: 300px;
+    height: 420px;
+    border-radius: 12vh;
+    margin-top: 20px;
+}
+
+div#container img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 12vh 12vh 0vh 0vh;
+
+}
+
+.card-description{
+    display: flex;
+    justify-content: space-around;
+    color: rgba(55, 8, 8, 0.855);
+    
+
+}
+
+
+.card-description div:nth-of-type(1) span:nth-of-type(1){
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-description div:nth-of-type(2) span{
+    font-size: 18px;
+}
+
+
+
+div#container div button{
+    border: none;
+    background-color:#ffdf7e;
+    border-radius: 3vh;
+    padding: 8px;
+}
